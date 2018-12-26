@@ -11,3 +11,10 @@ spring:
           #password: pass
           search-paths:
             - 'station*'
+          repos:
+            perf:
+              pattern:
+                - "*/perf"
+              uri: https://github.com/Lukasz184396/pluralsight-spring-cloudconfig-wa-tolls-perf
+              searchPaths:
+                - 'station*'
