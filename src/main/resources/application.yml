@@ -9,3 +9,5 @@ spring:
           uri: https://github.com/Lukasz184396/pluralsight-spring-cloudconfig-wa-tolls
           #username: uname
           #password: pass
+          search-paths:
+            - 'station*'
